@@ -1,14 +1,13 @@
-# Lima Client
-Live Mapping platform - client part
+# Lima Client (Live Mapping)
 
 ```shell
-ATTENTION: project was created in under a week so expect bugs and generally poor coding :)
+ATTENTION: platform was created in under a week so expect bugs and generally poor coding :)
 ```
 
 We are retrieving hotspots from the ArcGIS Server but uploading them to the PostGIS DB would be a better solution.
 
-## Required changes
-You can change all the basic stuff in src/config.js
+## Client Setup
+You can change all the basic stuff in **src/config.js**
 
 ## TODO:
 1) Get rid of jquery
