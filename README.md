@@ -4,7 +4,7 @@ Platform for crowdmapping/crowdsourcing geodata with live updates (aka Google Do
 ![screenshot](https://raw.githubusercontent.com/Global-Mapping-Hub/lima-client/master/screen.jpg)
 
 ## Client Setup
-You can change all the basic stuff in **src/config.js**
+You can change all the basic stuff in **app/config.js**
 
 ## TODO
  - remove outdated mice pointers
