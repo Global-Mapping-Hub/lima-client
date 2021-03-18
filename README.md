@@ -1,15 +1,30 @@
 # Lima Client (Live Mapping)
+Platform for crowdmapping/crowdsourcing geodata with live updates (aka Google Doc for maps).
 
-```shell
-ATTENTION: platform was created in under a week so expect bugs and generally poor coding :)
-```
-
-Platform for crowdmapping/crowdsourcing projects using Leaflet.
+![screenshot](https://raw.githubusercontent.com/Global-Mapping-Hub/lima-client/master/screen.jpg)
 
 ## Client Setup
 You can change all the basic stuff in **src/config.js**
 
-## TODO:
-1) Get rid of jquery
-3) Switch from leaflet.draw & leaflet.editable to something else
-4) Move away from leaflet to mapbox-gl for smooth vector tile rendering
+## TODO
+ - remove outdated mice pointers
+ - rewrite comparison slider logic (hardcoded values)
+ - move over to OpenLayers or Mapbox
+ - create projects (or "lobbies")
+
+## Installation
+```shell
+git clone https://github.com/Global-Mapping-Hub/lima-client.git
+cd lima-client
+npm install
+```
+
+## Dev
+```shell
+npm run start
+```
+
+## Build
+```shell
+npm run build
+```
